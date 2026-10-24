@@ -118,7 +118,7 @@ minor one correctly at t = 400 s (1·e^−1/3 = 0.717).
 value_norm = 3.444 / 7 = 0.492; false term = 1/4 = 0.25.
 Landed: **0.242**. Battery ran out: 0.242 − 0.3 = **−0.058**.
 
-## 5. What you know about the environment
+## 5.know about the environment
 
 The physics formulas and constants are not given. Discover them by experiment.
 
@@ -181,8 +181,3 @@ python visualize.py my_policy.py --seed 9001 --out ep.png # plot one flight
 | `policy_template.py` | +0.000 | 0.000 | 0.00 | 100% |
 
 Evaluation scores will be different (section 5).
-
-## 10. Submitting
-
-Submit only `<rollnumber>.py`. Check first that
-`python run_local.py <rollnumber>.py --scenarios all` runs without crashes or timeouts.
